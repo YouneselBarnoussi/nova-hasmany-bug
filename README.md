@@ -36,4 +36,3 @@ Click on `Create Team User` for members. You can see that the `Team` relationshi
 Now go to the file `app/Nova/Team.php` move the `members` relationship above the admin relationship, and repeat the steps above.
 
 Then you will see the same result but flipped, so it seems like the autofill only works for the first relationship.
-# nova-hasmany-bug
